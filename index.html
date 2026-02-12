@@ -1,1 +1,173 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Max — Resume, Projects, Career Chat</title>
+    <meta
+      name="description"
+      content="Max's resume site with projects, experience, and an AI-powered career chat."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Max · Software Engineer</p>
+        <h1>
+          A resume that talks back.
+          <span class="accent">Ask my career chat.</span>
+        </h1>
+        <p class="lead">
+          I build practical systems at the intersection of software engineering
+          and applied AI. This site is a living resume, with a chat assistant
+          trained on my experience, projects, and code.
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="#chat">Launch Career Chat</a>
+          <a class="btn ghost" href="#resume">View Resume</a>
+        </div>
+        <div class="meta">
+          <div>
+            <span class="label">Location</span>
+            <span>United States</span>
+          </div>
+          <div>
+            <span class="label">Focus</span>
+            <span>AI Systems · Backend · Product</span>
+          </div>
+          <div>
+            <span class="label">Open To</span>
+            <span>Senior Eng · Applied AI</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="card-top">Quick Snapshot</div>
+        <ul class="highlights">
+          <li>10+ years building software and data systems</li>
+          <li>Python, APIs, retrieval, evaluation, and infra</li>
+          <li>Delivered production tools used by real teams</li>
+        </ul>
+        <div class="card-footer">
+          <span>Scroll to explore</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="chat" class="section">
+        <div class="section-head">
+          <h2>Career Chat</h2>
+          <p>
+            This is my AI-powered resume assistant. Ask about my background,
+            projects, or specific skills.
+          </p>
+        </div>
+
+        <div class="chat-embed">
+          <div class="chat-placeholder">
+            <h3>Embed Your Hugging Face Space</h3>
+            <p>
+              Replace the iframe src with your Space URL once you deploy it.
+            </p>
+            <code>https://&lt;space-subdomain&gt;.hf.space</code>
+          </div>
+
+          <iframe
+            title="Career Chat"
+            src="https://<space-subdomain>.hf.space"
+            loading="lazy"
+            referrerpolicy="no-referrer"
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="resume" class="section">
+        <div class="section-head">
+          <h2>Resume</h2>
+          <p>Condensed timeline. Full details available on request.</p>
+        </div>
+
+        <div class="grid">
+          <article class="panel">
+            <h3>Experience</h3>
+            <ul>
+              <li>
+                <strong>Senior Software Engineer</strong> — Company Name
+                <span class="muted">(2021–2025)</span>
+              </li>
+              <li>
+                <strong>Software Engineer</strong> — Company Name
+                <span class="muted">(2017–2021)</span>
+              </li>
+              <li>
+                <strong>Data/ML Engineer</strong> — Company Name
+                <span class="muted">(2014–2017)</span>
+              </li>
+            </ul>
+          </article>
+
+          <article class="panel">
+            <h3>Core Skills</h3>
+            <ul>
+              <li>Python, TypeScript, SQL</li>
+              <li>APIs, Retrieval, LLM Tooling</li>
+              <li>Data pipelines, Evaluation, Observability</li>
+              <li>AWS, Docker, CI/CD</li>
+            </ul>
+          </article>
+
+          <article class="panel">
+            <h3>Selected Projects</h3>
+            <ul>
+              <li>AI career chat trained on my work artifacts</li>
+              <li>Search + retrieval systems for internal tools</li>
+              <li>Evaluation harness for ranking & feedback loops</li>
+            </ul>
+          </article>
+
+          <article class="panel">
+            <h3>Education</h3>
+            <ul>
+              <li>Degree Name — University</li>
+              <li>Certifications — Provider</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-head">
+          <h2>Projects & Code</h2>
+          <p>
+            Links to open-source work and relevant repos. Add your GitHub
+            projects here.
+          </p>
+        </div>
+        <div class="project-list">
+          <a class="project" href="https://github.com/max8github">
+            <h3>GitHub Profile</h3>
+            <p>Browse repositories and code samples.</p>
+          </a>
+          <div class="project">
+            <h3>Career Chat Repo</h3>
+            <p>Link to the repo that powers the chat experience.</p>
+          </div>
+          <div class="project">
+            <h3>Case Study</h3>
+            <p>One high-impact project with outcomes and metrics.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Contact: <a href="mailto:hello@example.com">hello@example.com</a> ·
+        <a href="https://www.linkedin.com">LinkedIn</a>
+      </p>
+      <p class="muted">Last updated Feb 12, 2026</p>
+    </footer>
+  </body>
+</html>
