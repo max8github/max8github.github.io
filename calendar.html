@@ -4,11 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calendar</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 100%; height: 100%; }
+      iframe { display: block; width: 100%; height: 100vh; border: none; }
+    </style>
   </head>
   <body>
     <iframe id="rezCal"
       src="https://calendar.google.com/calendar/u/0/embed?src=3d228lvsdmdjmj79662t8r1fh4%40group.calendar.google.com&ctz=Europe%2FBerlin&src=63hd39cd9ppt8tajp76vglt394%40group.calendar.google.com"
-      style="border: 0" width="800" height="600" frameborder="0" scrolling="no">
+      frameborder="0" scrolling="no">
     </iframe>
 
     <script>
